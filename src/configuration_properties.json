@@ -1,0 +1,27 @@
+{
+  "applicationSettings": {
+    "applicationName": "Customer Relationship Mgmt.",
+    "supportUrl": "#",
+    "companyWebsite": "",
+    "helpUrl": ""
+  },
+  "serverSettings": {
+    "enableSecureMode": false,
+    "portNumber": 8080,
+    "keyCloackEnabled": false
+  },
+  "defaultConfigurations": {
+    "includeDigitalSignature": true,
+    "enableCustomTheme": false,
+    "enableCustomApplicationLogo": false,
+    "idleTimeoutInterval": 300000,
+    "enableCustomBackgroundImage": false
+  },
+  "languageSettings": {
+    "selectedLanguage": "en",
+    "availableLanguages": [
+      "en"
+    ],
+    "enableRtl": false
+  }
+}

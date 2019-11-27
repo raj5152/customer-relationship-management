@@ -1,0 +1,41 @@
+.config .layout .flex {
+    height: 30px;
+}
+
+.container.grid-list-sm .layout .flex {
+    padding: 2px;
+    text-align: -webkit-auto;
+}
+
+.container.grid-list-xl :not(:only-child) .layout:last-child {
+    margin-bottom: -18px;
+}
+
+.container.grid-list-xl :not(:only-child) .layout:first-child {
+    margin-top: -20px;
+}
+
+.config *:not(:only-child) .layout:last-child {
+    margin-bottom: -30px;
+}
+
+.serviceConfig .layout .flex {
+    height: 30px;
+}
+
+.v-expansion-panel-content {
+    flex: auto;
+}
+
+.serviceConfig *:not(:only-child) .layout:last-child {
+    margin-bottom: -30px;
+}
+
+.toolbar {
+    height: 50px;
+}
+
+.v-card__actions {
+
+    padding: 0px;
+}

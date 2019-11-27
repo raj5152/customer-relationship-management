@@ -1,0 +1,98 @@
+.font {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.smart-icon {
+  width: 7vw;
+  height: 4.5vh;
+  position: relative;
+  top: 6px;
+  padding: 0 2px 0 0;
+}
+.text-field-align {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.required label::after {
+  content: "*";
+  color: red;
+}
+.v-stepper--vertical .v-stepper__step {
+  padding: 2px 9px 16px;
+}
+.btn-size {
+  width: 10px;
+  height: 10px;
+}
+.header {
+  top: 5px;
+  max-width: 100%;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.image-preview {
+  height: 200px;
+  width: 150px;
+}
+#icons {
+  font-size: 100px;
+  padding: 50px 0 0 20px;
+}
+#justify {
+  padding: 1px 0 20px;
+}
+#stepper {
+  padding: 3px 5px 10px;
+}
+#htm {
+  background:	#eaebeb;
+}
+#icons1 {
+  font-size: 100px;
+  padding: 35px 0 0 20px;
+}
+.align {
+  color: #ffff;
+  padding: 0 0 0 100px;
+}
+.toolbar {
+  height: 15%;
+  position: relative;
+}
+.st {
+  font-size: 5px;
+}
+fieldset {
+  border: 0;
+}
+.panel-body {
+  padding: 2px;
+}
+.handle {
+  cursor: move !important;
+  cursor: -webkit-grabbing !important;
+}
+.form {
+  text-align: -webkit-auto;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  max-width: 200%;
+}
+.heading {
+  color: rgb(247, 235, 235);
+  background-color: rgb(122, 42, 224);
+  border-color: #ddd;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}

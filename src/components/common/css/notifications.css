@@ -1,0 +1,41 @@
+.scroll {
+    height: 225px;
+    overflow: hidden;
+}
+
+.scroll:hover {
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #D3D3D3;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+.v-data-table__mobile-row {
+    display: initial;
+}
+
+.v-data-table__mobile-row__cell {
+    margin-left: 5%;
+}
+
+.v-data-table__mobile-row__wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.loading {
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    padding: 8px 15px;
+    border-radius: 5px;
+    left: calc(50% - 45px);
+    top: 30%;
+    opacity: 1;
+}

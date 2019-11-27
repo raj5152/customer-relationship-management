@@ -1,0 +1,119 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "webpack-dev-server",
+    "dev:prod": "webpack -p",
+    "test:unit": "vue-cli-service test:unit --coverage --coverageDirectory=tests/coverage/unit"
+  },
+  "dependencies": {
+    "@webpack-cli/init": "^0.1.5",
+    "apexcharts": "^3.8.4",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-vue-app": "^2.0.0",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "curl": "^0.1.4",
+    "deepmerge": "^3.2.0",
+    "es6-promise": "^4.2.5",
+    "fibers": "^4.0.1",
+    "idle-vue": "^2.0.5",
+    "jest": "^24.3.1",
+    "material-design-icons-iconfont": "^4.0.4",
+    "nprogress": "^0.2.0",
+    "rx-js": "0.0.0",
+    "sass": "^1.20.3",
+    "v-flex": "0.0.9",
+    "vee-validate": "^2.1.7",
+    "vue": "^2.6.10",
+    "vue-awesome": "^3.3.1",
+    "vue-chartjs": "^3.5.0",
+    "vue-chartkick": "^0.5.2",
+    "vue-css-donut-chart": "^1.1.6",
+    "vue-i18n": "^8.11.2",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-resource": "^1.5.1",
+    "vue-responsive": "^1.0.2",
+    "vue-router": "^3.0.2",
+    "vue-rx": "^6.2.0",
+    "vue-scroll": "^2.1.12",
+    "vuejs-logger": "^1.5.3",
+    "vuetify": "^2.0.0-beta.0",
+    "vuex": "^3.1.0",
+    "yaml": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@mdi/font": "^3.6.95",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-unit-jest": "^3.5.1",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "assets-webpack-plugin": "^3.9.10",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-imports": "^1.5.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.8.0",
+    "eslint-detailed-reporter": "^0.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "image-webpack-loader": "^4.6.0",
+    "install": "^0.12.2",
+    "jest-css-modules": "^2.0.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0",
+    "raw-loader": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.0.5",
+    "webpack": "^4.32.2",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "html"
+    ]
+  }
+}

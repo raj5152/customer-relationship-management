@@ -1,0 +1,55 @@
+.appDrawer {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.borderleft.v-list-group--active {
+  border-left: 2px solid red;
+}
+.wrappers {
+  padding: 0px 7px;
+}
+
+#wrapper {
+  font-size: 14px;
+}
+
+#flex1 {
+  margin-top: 18px;
+}
+
+.wrap {
+  margin-top: -22px;
+}
+
+.wrap1 {
+  margin-top: -21px;
+}
+
+.borderleft.v-list-group--active {
+  border-left: 2px solid #694ED6;
+}
+
+.borderright.v-list-group--active {
+  border-right: 2px solid #694ED6;
+}
+
+#container {
+  top: 0px;
+}
+
+.v-list-item__action:last-of-type:not(:only-child),
+.v-list-item__icon:last-of-type:not(:only-child) {
+  margin-left: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

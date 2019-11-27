@@ -1,0 +1,101 @@
+[
+  {
+    "icon": "mdi-speedometer",
+    "title": "Dashboard",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-view-dashboard",
+    "title": "Catalogue",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-upload",
+    "title": "Upload a Product",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-file",
+    "title": "Reports",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-email",
+    "title": "Bank Account",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-account-circle",
+    "title": "Customers",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  },
+  {
+    "icon": "mdi-settings",
+    "title": "Settings",
+    "path": "/functional/screenMaintenance",
+    "items": [
+      {
+        "id": "1",
+        "title": "Modifying Sac Code",
+        "path": "/common/configurationProperties"
+      },
+      {
+        "id": "1",
+        "title": "Share Report",
+        "path": "/common/configurationProperties"
+      },
+      {
+        "id": "1",
+        "title": "Add an Employee",
+        "path": "/common/configurationProperties"
+      },
+      {
+        "id": "1",
+        "title": "Add GST return statement",
+        "path": "/common/configurationProperties"
+      }
+    ]
+  }
+]

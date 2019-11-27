@@ -1,0 +1,22 @@
+#login {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 50;
+  left: 0;
+  content: "";
+  z-index: 0;
+}
+
+#img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: 100% 100%;
+  background-color: white;
+  object-fit: scale-down;
+  background-repeat: no-repeat;
+  content: "";
+  z-index: 0;
+}

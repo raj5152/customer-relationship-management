@@ -1,0 +1,50 @@
+.login-text {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.flex-container1 {
+    max-width: 20%;
+    margin: 0 auto;
+    bottom: -30vh;
+    height: 100%;
+    line-height: 400px;
+    opacity: 0.8;
+}
+
+.company {
+    backface-visibility: hidden;
+    transform-origin: 10% 50%;
+    z-index: 1;
+}
+
+.company-move {
+    transition: all 600ms ease-in-out 50ms;
+}
+
+.company-enter-active {
+    transition: all 300ms ease-out;
+}
+
+.company-leave-active {
+    transition: all 200ms ease-in;
+    position: absolute;
+    z-index: 0;
+}
+
+.company-enter,
+.company-leave-to {
+    opacity: 0;
+}
+
+.company-enter {
+    transform: scale(0.9);
+}
+
+@media only screen and (min-width: 1000px) {
+    .home {
+        padding: 0 15px 0 0;
+    }
+}

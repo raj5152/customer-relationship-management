@@ -1,0 +1,32 @@
+.bottom-left {
+    position: absolute;
+    bottom: 28px;
+    left: 16px;
+    top: 105px;
+  }
+  .bottom-middle {
+    position: absolute;
+    bottom: 8px;
+    left: 160px;
+    top: 125px;
+  }
+  .image {
+    position: relative;
+    text-align: center;
+  }
+  .images {
+    height: 300px;
+    width: 100%;
+  }
+  .navbar {
+    background-color: rgb(226, 226, 226);
+  }
+  .links {
+    background-color: #f1f1f1;
+  }
+  .v-btn--fab.v-size--small {
+    height: 0px;
+    width: 10px;
+  }
+  .gradient{
+  background-image: linear-gradient(#E8E8E8, white);}

@@ -1,0 +1,286 @@
+{
+  "commonComponents": {
+    "login": {
+      "loginButton_text": "s'identifier",
+      "loginUsernameField_label": "Nom d'utilisateur",
+      "loginPasswordField_label": "Mot de passe"
+    },
+    "notification": {
+      "navbar_settingsButton_text": "Réglages",
+      "navbar_navbar_logoutButton_text": "Connectez - Out",
+      "navbar_notificationList_moreButton_text": "Plus",
+      "navbar_notificationList_clearButton_text": "Clair",
+      "navbar_notifications_label": "Les notifications",
+      "navbar_notificationList_label": "Les notifications"
+    },
+
+    "notifications": {
+      "notification_availableNotifications_card_title": "Notifications disponibles",
+      "notification_tableHeader_notificationID_label": "ID de notification",
+      "notification_tableHeader_message_label": "Message",
+      "notification_tableHeader_type_label": "Type",
+      "notification_tableHeader_raisedBy_label": "Élevé par",
+      "notification_tableHeader_raisedAt_label": "Élevé à"
+    },
+    "drawer": {
+      "menu_home_link": "Accueil",
+	  "menu_favourites_link": "Signets",
+      "menu_staticData_options": " Données statiques",
+      "menu_staticData_language_link": "La langue",
+      "menu_staticData_currency_link": "Devise",
+      "menu_staticData_notifications_link": "Les notifications",
+      "menu_newCustomer_options": "Nouveau client",
+      "menu_newCustomer_onboardCustomer_link": "Client à bord",
+      "menu_newCustomer_openAccount_link": "Compte ouvert",
+      "menu_adminOperations_options": "Opérations administratives",
+      "menu_adminOperations_screenMaintainance_link": "Maintenance de l'écran",
+      "menu_adminOperations_appConfigurations_link": "Configurations d'applications",
+      "help_label": "Aidez-moi",
+      "Sign_out_label": "Déconnexion"
+    },
+    "pageNotFound": {
+      "pageNotFound_message": "Désolé, page non trouvée",
+      "pageNotFoundReturn_home_link": "Accueil"
+    },
+    "idleDialog": {
+      "sessionExpire_title": "La session est expirée",
+      "sessionExpire_message": "La session est inactive depuis un moment. Pour des raisons de sécurité, l'utilisateur sera automatiquement déconnecté de l'application.",
+      "sessinLogout_OkButton_text": "D'accord"
+    },
+    "globalSearch": {
+      "search_label": "CHERCHER",
+      "search_placeholder": "Chercher"
+    }
+  },
+  "functionalComponents": {
+    "toolbar": {
+      "onbordingCustomer_steps_title": "ÉTAPE",
+      "toolbar_label": "Commençons votre voyage à bord",
+      "uploadPicture_message": "Brillant! Maintenant, il suffit de télécharger une photo de votre document d’identité et un selfie pour compléter votre intégration",
+      "termsAndConditions_message": "Enfin, acceptez nos termes et conditions",
+      "generalInformation_step_label": "Informations générales",
+      "UploadDocuments_step_label": "Télécharger des documents",
+      "personalInformation_label": "Informations personnelles",
+      "confirmation_step_label": "Confirmation",
+      "residenceAddress_label": "Adresse de domicile",
+      "identificationDetails_label": "Détails d'identification"
+    },
+    "home": {
+      "home_title": "Accueil",
+      "home_card_title": "Widget"
+    },
+    "form": {
+      "fullName_field_label": "Nom complet (en anglais)",
+      "mobileNumber_field_label": "Numéro de portable",
+      "dateOfBirth_field_label": "Date de naissance",
+      "ageValidation_message": "L'âge ne peut être inférieur à 18 ans",
+      "email_field_label": "E-mail (optionnel)",
+      "fatherName_field_label": "Le nom du père",
+      "gender_field_label": "Le sexe",
+      "employmentStatus_field_label": "Statut d'emploi",
+      "jobTitle_field_label": "Profession",
+      "addressDetails_field_label": "Nom du village / de la ville, numéro d'appartement, bâtiment, rue",
+      "state_field_label": "Etat / Division",
+      "township_field_label": "Canton",
+      "country_field_label": "Pays",
+      "nationality_field_label": "Nationalité",
+      "nationalIdentification_field_label": "Identification nationale",
+      "form_clearButton_text": "Clair",
+      "form_continueButton_text": "Continuer",
+      "form_dataExistsMessage_gotitButton_text": "Je l'ai",
+      "selfie_label": "Selfie",
+      "videoStreamError_message": "Flux vidéo non disponible",
+      "selfie_takePhotoButton_text": "Prendre une photo",
+      "selfie_retakeButton_text": "Reprendre",
+      "form_closeButton_text": "Fermer",
+      "idCard_label": "carte d'identité",
+      "signature_label": "Signature",
+      "additionalDocumentsUpload_message": "Vous pouvez télécharger votre signature et d'autres documents supplémentaires",
+      "form_backButton_text": "Retour",
+      "confirmation_message": "En cliquant sur soumettre, vous acceptez les",
+      "termsAndConditions_message": "Termes et conditions",
+      "termsOfCompanyName_text": "des services financiers Finastra (Wave Money)",
+      "form_submitButton_text": "soumettre",
+
+      "fullName_field_placeholder": "Entrez votre nom complet",
+      "mobileNumber_field_placeholder": "XXXXXXXXXX",
+      "dateOfBirth_field_placeholder": "Sélectionnez la date de naissance",
+      "email_field_placeholder": "Entrez votre adresse email",
+      "fatherName_field_placeholder": "Entrez le nom complet de votre père",
+      "genderMale_field_label": "Mâle",
+      "genderFemale_field_label": "Femelle",
+      "employmentStatus_field_placeholder": "Statut d'emploi",
+      "employmentStatus_field_hint": "Cliquez pour éditer : Cliquez pour sauvegarder",
+      "jobTitle_field_placeholder": "Entrez le titre du poste",
+      "addressDetails_field_placeholder": "Entrez l'adresse détaillée",
+      "state_field_placeholder": "Entrer Etat / Division",
+      "township_field_placeholder": "Entrez votre canton",
+      "country_field_placeholder": "Entrez votre pays",
+      "nationality_field_placeholder": "Myanmar",
+      "nationalIdentification_field_placeholder": "XXXXXXXXXXXX",
+      "form_submitDialog_title": "félicitations!",
+      "form_submitDialog_message": "enregistré avec succès!",
+      "form_submit_okButton_text": "D'accord"
+    },
+    "configurationsProperties": {
+      "component_title": "l'application",
+      "server_settings_title": "Prestations de service",
+      "saveButton_text": "sauvegarder"
+    }
+  },
+  "staticComponents": {
+    "common": {
+      "saveButton_text": "sauvegarder",
+      "clearButton_text": "Clair",
+      "cancelButton_text": "Annuler",
+      "proceedButton_text": "Procéder",
+      "showNoData_dialog_ok": "Oui",
+      "yesButton_text": "Oui",
+      "resetButton_text": "Réinitialiser",
+      "deleteMessage_dialog": "Etes-vous sûr que vous voulez supprimer?",
+      "newButton_text": "Nouveau",
+      "active_label": "actif?"
+    },
+
+    "language": {
+      "language_languageCode_label": "Code de langue",
+      "language_languageName_label": "Nom de la langue",
+      "language_nativeName_label": "Nom natif",
+      "language_locale_label": "Code de lieu",
+      "language_languagePack_label": "Pack linguistique",
+      "language_defaultLanguage_label": "Langage par défaut",
+      "language_baseLanguage_label": "Langue de base",
+      "languageISO_CodeField_label": "Code ISO Alpha-2",
+      "languageComponent_title": "Maintien de la langue",
+      "availableLanguages_card_title": "Langues disponibles",
+      "searchLanguage_card_title": "Rechercher des langues",
+      "amendLanguage_editSuccess_text": "Langue modifiée avec succès",
+
+      "ammendLanguage_card_title": "Modifier le langage",
+      "language_showNoData_dialog_success": "Réussi",
+      "languageTable_header_action": "actes",
+      "language_form_alphaCode_placeholder": "ES",
+      "language_form_languageName_placeholder": "Spanish",
+      "language_form_nativeName_placeholder": "Ingles",
+      "language_form_localCode_placeholder": "es"
+    },
+
+    "currency": {
+      "translation": {
+        "alphaCodeRules": "Le code ne peut pas avoir plus de 3 caractères",
+        "numericCodeRules": "Le code numérique ne peut pas avoir plus de 3 caractères",
+        "patternRules": "Le code numérique ne peut pas avoir de chaîne",
+        "editSuccess": "Devise amendée avec succès",
+        "saveSuccess": "Monnaie créée avec succès"
+      },
+      "isoAlphaCode_label": "Code alpha ISO",
+      "isoNumericCodelabel": "Code numérique ISO",
+      "swiftCode_label": "Code rapide",
+      "non_isoCurrency_label": "Monnaie non ISO",
+      "currencyName_label": "Nom de la monnaie",
+      "currencyComponent_title": "Maintanence de la monnaie",
+      "availableCurrencies_card_title": "Devises disponibles",
+      "addCurrency_card_title": "Nouvelle monnaie",
+      "amendCurrency_card_title": "Modifier la devise",
+
+      "currencyDetails_card_title": "Détails de la monnaie",
+      "currencyTransalation_card_title": "Informations descriptives",
+      "currencyTable_header_alternativeCode": "Code alternatif",
+      "currencyTable_header_numericCode": "Code numérique",
+      "currencyTable_header_action": "actes",
+
+      "currency_form_currencyCode_lable": "Code de devise",
+      "currency_form_currencyNumericCode_lable": "Code numérique",
+      "currency_form_currencyAlternativeCode_lable": "Code alternatif",
+
+      "currencyView_name_label": "prénom",
+      "currency_form_description": "La description",
+      "currency_doneButton_text": "Terminé"
+    },
+
+    "notifications": {
+      "notifications_title": "Les notifications",
+      "notifications_card_title": "Notifications disponibles"
+    }
+  },
+  "schemaParser": {
+    "common": {
+      "placeholder_field_label": "Espace réservé",
+      "default_field_label": "Défaut",
+      "hint_field_label": "Allusion",
+      "table_required_label": "Champs obligatoires",
+      "disabled_label": "désactivé",
+      "highlight_label": "Surligner",
+      "readonly_label": "Lecture seulement",
+      "minLength_field_label": "Longueur minimale",
+      "maxLength_field_label": "Longueur maximale",
+      "saveButton_text": "sauvegarder",
+      "deleteMessage_dialog": "Etes-vous sûr que vous voulez supprimer",
+      "yes_text": "Oui",
+      "no_text": "Non",
+
+      "enter_value_Field_label": "Entrer des valeurs",
+      "header_ID": "ID",
+      "header_value": "Valeur",
+      "key_field_label": "Clé",
+      "label_field_label": "Étiquette",
+      "table_type_field_label": "Type",
+      "table_actions_label": "actes",
+      "option_label": "Les options"
+    },
+    "translation": {
+      "required": "Champs obligatoires!",
+      "minErrorMessage": "Le champ ne peut pas avoir moins de ",
+      "maxErrorMesage": "Le champ ne peut avoir plus de ",
+      "patternErrorMessage": "Format invalide!",
+      "charcter": " personnages"
+    },
+    "screenMaintainenceComponent_title": "Maintenance de l'écran",
+    "schemaSelect_card_title": "Écrans de recherche",
+    "schemaSelect_card_selectSchemaField_label": "Sélectionnez l'écran",
+    "schemaSelect_card_selectSectionField_label": "Sélectionnez une section",
+    "dataExistsMessage_dialog": "Les données existent",
+    "dataExistsMessage_gotItButton_text": "Je l'ai",
+    "attributes_card_title": "Les attributs",
+    "formPreview_card_title": "Aperçu du formulaire",
+
+    "addScreenAttributes_card_title": "Ajouter des attributs d'écran",
+    "editScreenAttributes_card_title": "Modifier les attributs de l'écran",
+
+    "autoItemEdit_dialog": "Modification automatique d'élément",
+    "checklistItemEdit_dialog": "Élément de la liste de contrôle Modifier",
+    "radioItemEdit_dialog": "Radio Item Edit",
+    "selectItemEdit_dialog": "Sélectionner un article Modifier",
+
+    "languageDetails_label": "Détails de la langue"
+  },
+  "configurationsProperties": {
+    "defaultConfigurations": "Configuration par défaut",
+    "includeDigitalSignature": "Inclure la signature numérique",
+    "enableCustomTheme": "activer le thème personnalisé",
+    "enableCustomApplicationLogo": "activer le logo d'application personnalisé",
+    "idleTimeoutInterval": "intervalle d'inactivité",
+    "enableCustomBackgroundImage": "Activer l'image de fond personnalisée",
+    "termsAndConditionsContentPath": "Termes et conditions Chemin du contenu",
+    "languageSettings": "Internationalisation",
+    "selectedLanguage": "Langue sélectionnée",
+    "availableLanguages": "Langue disponible",
+    "applicationSettings": "Configuration de l'application",
+    "applicationName": "Nom de l'application",
+    "supportUrl": "Support Url",
+    "companyWebsite": "site Web d'entreprise",
+    "helpUrl": "aide url",
+    "serverSettings": "Configuration du serveur",
+    "enableSecureMode": "activer le mode sécurisé",
+    "portNumber": "numéro de port",
+    "enableRtl": "Fonctionnalité"
+
+  },
+  "serverProperties": {
+    "authentication": "Authentification",
+    "authentication_url": "URL",
+    "use_bearer_token": "Jeton au porteur",
+    "sharedServices": "Services partagés",
+    "sharedServices_api_url": "URL"
+  }
+}
