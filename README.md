@@ -1,9 +1,9 @@
-# Capacity Planner
+# CRM
 
 ## Introduction
 
 ```
-Digital-Customer-Onboarding app
+Customer Relationship Management
 ```
 
 ## Project setup
