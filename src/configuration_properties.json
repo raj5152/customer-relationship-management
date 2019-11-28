@@ -1,14 +1,13 @@
 {
   "applicationSettings": {
-    "applicationName": "Customer Relationship Mgmt.",
+    "applicationName": "Customer Relationship Management.",
     "supportUrl": "#",
     "companyWebsite": "",
     "helpUrl": ""
   },
   "serverSettings": {
     "enableSecureMode": false,
-    "portNumber": 8080,
-    "keyCloackEnabled": false
+    "portNumber": 8080
   },
   "defaultConfigurations": {
     "includeDigitalSignature": true,

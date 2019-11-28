@@ -1,18 +1,21 @@
 <template>
-  <v-toolbar prominent extended height="80">
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-    <v-toolbar-title>Title</v-toolbar-title>
+  <v-toolbar prominent extended height="80" class="pt-4">
+     <v-icon  @click="toggleDrawer()" :color="primaryColor"
+          >mdi-menu</v-icon
+        >
+        <v-flex lg1/>
+        <v-flex xs sm md lg1 xl1 v-for="item in menus" :key="item" >
+    <v-checkbox
+      v-model="checkbox"
+      :label="item"
+    ></v-checkbox>
+        </v-flex>
     <v-spacer></v-spacer>
-    <v-btn icon>
-      <v-icon>mdi-magnify</v-icon>
-    </v-btn>
-    <v-btn icon>
-      <v-icon>mdi-heart</v-icon>
-    </v-btn>
-    <v-btn icon>
-      <v-icon>mdi-dots-vertical</v-icon>
-    </v-btn>
-  </v-toolbar>
+   
+      <v-icon class="pa-1">mdi-magnify</v-icon>
+      <v-icon class="pa-1">mdi-bell</v-icon>
+      <v-icon class="pa-1">mdi-dots-vertical</v-icon>
+   </v-toolbar>
 </template>
 <script>
 import {
@@ -23,10 +26,11 @@ import {
   success,
   warning
 } from "@/themes/themeUtil.js";
-import Navbar from "./Navbar.vue";
+// import Navbar from "./Navbar.vue";
+import event from '@/event.js';
 export default {
   "components": {
-    Navbar
+    // Navbar  
   },
   "data": () => {
     return {
@@ -34,13 +38,23 @@ export default {
       info,
       primaryColor,
       secondaryColor,
-      "show": false,
       success,
-      warning
+      warning,
+      menus:[
+        'Production',
+        'Purcahse',
+        'Inventory',
+        'WMS',
+        'CRM',
+        'Sales',
+        'More'
+      ]
     };
   },
-  mounted() {
-    this.show = true;
+  "methods": {
+    toggleDrawer() {
+      event.$emit('APP_DRAWER_TOGGLED', true);
+    }
   }
 };
 </script>

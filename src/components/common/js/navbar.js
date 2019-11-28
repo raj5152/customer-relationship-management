@@ -10,6 +10,8 @@ import {
   warning
 } from "@/themes/themeUtil.js";
 import custom from "@/configuration_properties.json";
+import event from '@/event';
+
 const {
   applicationName
 } = custom.applicationSettings;
@@ -20,8 +22,6 @@ export default {
   "computed": {
   },
   created() {
-    grad();
-    this.gradients = gradient();
   },
 
   "data": () => {
@@ -38,8 +38,10 @@ export default {
     };
   },
   "methods": {
+    toggleDrawer() {
+      event.$emit('APP_DRAWER_TOGGLED', true);
+    },
     show() {
-      alert();
     },
     logout() {
       this.open = false;
