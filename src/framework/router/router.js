@@ -23,6 +23,26 @@ const LoginScreen = () => {
   Home = () => {
     return import(
     /* WebpackChunkName:"common" */ "@/components/common/Home.vue");
+  },
+  Calendar = () => {
+    return import(
+      /* WebpackChunkName:"common" */ "@/components/functional/Calendar.vue");
+  },
+  ProjectReport = () => {
+    return import(
+      /* WebpackChunkName:"common" */ "@/components/functional/ProjectReport.vue");
+  },
+  Collection = () => {
+    return import(
+      /* WebpackChunkName:"common" */ "@/components/functional/Collection.vue");
+  },
+  Feedback = () => {
+    return import(
+    /* WebpackChunkName:"common" */ "@/components/functional/Feedback.vue");
+  },
+  Rating = () => {
+    return import(
+    /* WebpackChunkName:"common" */ "@/components/functional/Rating.vue");
   };
 
 Vue.use(Router);
@@ -34,7 +54,7 @@ const router = new Router({
     "component": LoginScreen
   },
   {
-    "path": "/Home",
+    "path": "/home",
     "name": "/Home",
     "component": Home
   },
@@ -60,6 +80,31 @@ const router = new Router({
     "path": "/common/help",
     "name": "Help",
     "component": Help
+  },
+{
+    "path": "/functional/calendar",
+    "name": "calendar",
+    "component": Calendar
+  },
+  {
+    "path": "/functional/projectReport",
+    "name": "projectReport",
+    "component": ProjectReport
+  },
+  {
+    "path": "/functional/collection",
+    "name": "collection",
+    "component": Collection
+  },
+  {
+    "path": "/functional/feedback",
+    "name": "feedback",
+    "component": Feedback
+  },
+  {
+    "path": "/functional/rating",
+    "name": "rating",
+    "component": Rating
   }]
 });
 router.beforeEach((to, from, next) => {
